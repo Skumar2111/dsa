@@ -14,10 +14,6 @@ public class PrimeCheck {
 
     private static boolean checkPrime(int n) {
 
-        if(n==1 || n==2)
-        {
-            return  true;
-        }
 
         for(int i=2;i<Math.floor(Math.sqrt(n));i++)
         {
