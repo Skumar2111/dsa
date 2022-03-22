@@ -6,7 +6,7 @@ public class PallindromeMain {
     {
         Pallindrome pallindrome = new Pallindrome();
 
-       System.out.println(pallindrome.isPallindrome(735537));
+       System.out.println(pallindrome.isPallindrome(1001));
 
     }
 }
@@ -22,6 +22,8 @@ class Pallindrome {
             rev = rev * 10 + temp;
 
         }
+
+    
       return (num==rev);
 }
 }
