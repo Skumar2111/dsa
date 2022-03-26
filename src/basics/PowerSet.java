@@ -3,6 +3,11 @@ package basics;
 public class PowerSet {
 
 
+    /**
+     * Power set for a string {a, b, c, ab,bc,,ac,abc}
+     */
+    /
+
     public static void main(String args[])
     {
 
