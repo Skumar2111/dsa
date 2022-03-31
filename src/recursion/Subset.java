@@ -1,19 +1,23 @@
 package recursion;
 
+import java.util.ArrayList;
+
 public class Subset {
 
     public static void main(String args[])
     {
         String s = "abc";
-
+        ArrayList<String> arr = new ArrayList<>();
         subsets(s,"",0);
     }
 
     private static void subsets(String s, String s1, int i) {
 
+
         if(s.length()==i)
         {
-            System.out.println(s1);
+
+                System.out.println(s1);
             return;
         }
 
